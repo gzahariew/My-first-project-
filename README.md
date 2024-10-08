@@ -1,16 +1,8 @@
-Start
-
-
-what I am going to do  
+A project where I learned about:
+ State management (useState),
+ Handling form inputs
 
 Functions
 
-1. Input value for basic imformation about tasks
-2. Input information about additional information  
-3. Remoove a TODO
-
-Additionally 
-
-1. Style it 
-2. A hidden easter egg
-3. Get it testet by a QA injeneer 
+1. Input a TODO
+2. Remoove a TODO

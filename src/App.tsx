@@ -1,5 +1,4 @@
 import { useState } from 'react'
-
 import './App.css'
 
 
@@ -20,29 +19,30 @@ const App: React.FC = () => {
 
   return (
     <div >
+      <div className='generalDiv' >
       <h1 >To-Do List</h1>
-      <div >
+      <div  >
         <input
           type="text"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           placeholder="Add a new task"
+          className='appInput'
         />
-        <button onClick={addTodo} >Add</button>
+        <button onClick={addTodo} className='appButton' >Add</button>
+      </div>
       </div>
       <ul >
         {todos.map((todo, index) => (
           <li key={index} >
             {todo}
-            <button onClick={() => removeTodo(index)} >Remove</button>
+            <button className='removeButton' onClick={() => removeTodo(index)} >Remove</button>
           </li>
         ))}
       </ul>
     </div>
   );
 };
-
-// Update the styles object to ensure proper typing
 
 
 export default App;
