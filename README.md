@@ -8,7 +8,4 @@ Functions
 2. Remoove a TODO
 
 
-***Your Name is actually me(gzahariev)*** just through VSCode (Still testing this, git Bash>>>)
-
-
-test
+***Your Name is actually me(gzahariev)*** just through VSCode (Still testing this, git Bash>>>
